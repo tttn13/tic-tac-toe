@@ -1,0 +1,65 @@
+
+body {
+    background-color: black;
+    font-family: sans-serif ;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    border-left: none;
+  }
+  
+table tr td:last-child {
+    border-right: none;
+}
+
+td, th {
+    text-align: center;
+    border: 4px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+
+.cell {
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 80px;
+    font-size: 4em;
+    padding: 0px;
+    margin: 0px;
+}
+
+#scores {
+    display: flex;
+    justify-content: center;
+}
+
+#scores > div {
+    padding: 10px 50px;
+    flex-direction: column;
+}
