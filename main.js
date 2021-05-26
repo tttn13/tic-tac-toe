@@ -4,7 +4,6 @@ const Coordinate = (x,y) => {
     return {get_x,get_y}
 }
 
-
 const gameBoard = (() => {
     let board = [...Array(3)].map(element => Array(3).fill(""));
     let won_already = false;
@@ -49,7 +48,6 @@ const gameBoard = (() => {
         DRAW: 3,
         NORESULT: 4,
     }
-    
     
     const check_for_winner = () => {
         let length = board.length;
