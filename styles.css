@@ -21,6 +21,10 @@ h1 {
     padding: 50px;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
 table {
     margin: 20px auto;
     border-collapse: collapse;
